@@ -11,8 +11,8 @@ This project implements a full AWS Lakehouse ETL pipeline using:
 The purpose of the pipeline is to ingest raw data (Landing Zone), sanitize and filter it (Trusted Zone), and prepare curated datasets (Curated Zone) used for machine learning analytics.
 
 This repository contains:
-	•	SQL scripts for creating Landing Zone tables
-	•	Python ETL scripts for AWS Glue jobs (Trusted + Curated layers)
-	•	Screenshots showing successful Athena queries
-	•	Original STEDI datasets
+- SQL scripts for creating Landing Zone tables
+- Python ETL scripts for AWS Glue jobs (Trusted + Curated layers)
+- Screenshots showing successful Athena queries
+- Original STEDI datasets
 
