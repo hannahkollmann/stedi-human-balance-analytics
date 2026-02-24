@@ -45,7 +45,7 @@ accelerometer_trustedS3source = glueContext.create_dynamic_frame.from_options(
     transformation_ctx="accelerometer_trustedS3source",
 )
 
-# 3. machine_learning filter curated
+# machine_learning filter curated
 #    Join step_trainer_trusted and accelerometer_trusted
 #    on timestamp/sensorreadingtime
 SqlQuery_machine_learning = """
